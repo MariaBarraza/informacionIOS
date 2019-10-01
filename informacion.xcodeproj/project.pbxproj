@@ -14,6 +14,9 @@
 		3D31A54F2343E8AB001AB08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31A54D2343E8AB001AB08E /* LaunchScreen.storyboard */; };
 		3D31A55A2343E8AB001AB08E /* informacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5592343E8AB001AB08E /* informacionTests.swift */; };
 		3D31A5652343E8AB001AB08E /* informacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5642343E8AB001AB08E /* informacionUITests.swift */; };
+		3D31A5732343EA03001AB08E /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5722343EA03001AB08E /* Contacto.swift */; };
+		3D31A5752343EC29001AB08E /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5742343EC29001AB08E /* CeldaContactoController.swift */; };
+		3D31A5772343F742001AB08E /* EitarConactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5762343F742001AB08E /* EitarConactoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3D31A5602343E8AB001AB08E /* informacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = informacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D31A5642343E8AB001AB08E /* informacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informacionUITests.swift; sourceTree = "<group>"; };
 		3D31A5662343E8AB001AB08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D31A5722343EA03001AB08E /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		3D31A5742343EC29001AB08E /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
+		3D31A5762343F742001AB08E /* EitarConactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitarConactoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3D31A54B2343E8AB001AB08E /* Assets.xcassets */,
 				3D31A54D2343E8AB001AB08E /* LaunchScreen.storyboard */,
 				3D31A5502343E8AB001AB08E /* Info.plist */,
+				3D31A5722343EA03001AB08E /* Contacto.swift */,
+				3D31A5742343EC29001AB08E /* CeldaContactoController.swift */,
+				3D31A5762343F742001AB08E /* EitarConactoController.swift */,
 			);
 			path = informacion;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D31A5752343EC29001AB08E /* CeldaContactoController.swift in Sources */,
+				3D31A5772343F742001AB08E /* EitarConactoController.swift in Sources */,
 				3D31A5472343E8A9001AB08E /* ViewController.swift in Sources */,
 				3D31A5452343E8A9001AB08E /* AppDelegate.swift in Sources */,
+				3D31A5732343EA03001AB08E /* Contacto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
