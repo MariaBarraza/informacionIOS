@@ -18,8 +18,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         contactos.append(Contacto(nombre: "nombre1", telefono: "telefono1", direccion: "direccion1", correo: "correo1", foto: "foto1"))
         contactos.append(Contacto(nombre: "nombre2", telefono: "telefono2", direccion: "direccion2", correo: "correo2", foto: "foto2"))
         contactos.append(Contacto(nombre: "nombre3", telefono: "telefono3", direccion: "direccion3", correo: "correo3", foto: "foto3"))
-        contactos.append(Contacto(nombre: "nombre4", telefono: "telefono4", direccion: "direccion4", correo: "correo4", foto: "foto4"))
-        
+        contactos.append(Contacto(nombre: "nombre4", telefono: "telefono4", direccion: "direccion4", correo: "correo4", foto: "foto4")) 
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -47,6 +46,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func recargarTabla(){
         tvContactos.reloadData()
     }
+    func agregarContacto(){
+        tvContactos.reloadData()
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
@@ -54,6 +56,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         {
             let destino = segue.destination as? EditarContactoController
             destino?.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
+            destino?.callbackActualizarTabla = recargarTabla
+        }else if segue.identifier == "goToAgregar"
+        {
+            let destino = segue.destination as? AgregarContactoController
+            
+            contactos.append(Contacto(nombre: "Nuevo", telefono: "(644) 0 00 00 00", direccion: "Direccion nueva", correo: "correo@correo.com", foto: "foto"))
+
+            destino?.contacto = contactos[contactos.count-1]
+            destino?.callbackAgregarTabla = agregarContacto
             destino?.callbackActualizarTabla = recargarTabla
         }
         

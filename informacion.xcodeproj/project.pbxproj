@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0910852347E2DB0017203B /* AgregarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0910842347E2DB0017203B /* AgregarContactoController.swift */; };
 		3D31A5452343E8A9001AB08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5442343E8A9001AB08E /* AppDelegate.swift */; };
 		3D31A5472343E8A9001AB08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A5462343E8A9001AB08E /* ViewController.swift */; };
 		3D31A54A2343E8A9001AB08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31A5482343E8A9001AB08E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0910842347E2DB0017203B /* AgregarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarContactoController.swift; sourceTree = "<group>"; };
 		3D31A5412343E8A9001AB08E /* informacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = informacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D31A5442343E8A9001AB08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D31A5462343E8A9001AB08E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				3D31A5722343EA03001AB08E /* Contacto.swift */,
 				3D31A5742343EC29001AB08E /* CeldaContactoController.swift */,
 				3D31A5762343F742001AB08E /* EitarConactoController.swift */,
+				3D0910842347E2DB0017203B /* AgregarContactoController.swift */,
 			);
 			path = informacion;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0910852347E2DB0017203B /* AgregarContactoController.swift in Sources */,
 				3D31A5752343EC29001AB08E /* CeldaContactoController.swift in Sources */,
 				3D31A5772343F742001AB08E /* EitarConactoController.swift in Sources */,
 				3D31A5472343E8A9001AB08E /* ViewController.swift in Sources */,
